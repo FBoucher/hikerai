@@ -1,10 +1,14 @@
+
 # HikerAI
+
+> [!NOTE]
+> 📌 This repository is a striped down version of the official Microsoft [dotnet / ai-samples](https://github.com/dotnet/ai-samples) GitHub reposity. Only the *02-HikerAI* (aka HikerAI) sample was kept and the file structure was flattened to ease the visibility of the code.
+>
+> 🔖 This code is paired with the blog post [Generate .NET Secrets Automatically from Deployment (azd) Outputs](https://devblogs.microsoft.com/dotnet/).
 
 This sample demonstrates how to use the Azure OpenAI with a `gpt-35-turbo` model, from a simple .NET 8.0 console application. Get a hiking recommendation from the AI model. It consists of a simple console application,running locally, that will send request to an Azure OpenAI service deployed in your Azure subscription. 
 
 Everything will be deployed automatically using the Azure Developer CLI.
-
-> This code is paired with the blog post [Generate .NET Secrets Automatically from Deployment (azd) Outputs](https://devblogs.microsoft.com/dotnet/).
 
 ## Requirements
 
